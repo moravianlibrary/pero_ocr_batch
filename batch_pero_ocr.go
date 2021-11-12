@@ -69,7 +69,7 @@ func main() {
 	}
 
 	apiKey = viper.GetString("pero.api_key")
-	endpoint = viper.GetString("ocr.endpoint")
+	endpoint = viper.GetString("pero.endpoint")
 
 	dir := flag.String("d", "", "dir to ocr in-place")
 	cancel := flag.String("c", "", "cancel request with given id")
